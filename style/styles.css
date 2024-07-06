@@ -18,13 +18,14 @@
 }
 #hero .hero-content .item{
     color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 18px;
-font-weight: 350;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.7;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 15px;
 }
 #hero .hero-content .hero-item{
     color: rgb(255, 255, 255);
@@ -34,6 +35,7 @@ font-weight: 400;
 line-height: 44px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
 }
 #hero .hero-content .hero-item1{
     color: rgb(255, 255, 255);
@@ -43,6 +45,7 @@ font-weight: 250;
 line-height: 15px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 10px;
 opacity: 0.8;
 }
 .btn-container{
@@ -50,11 +53,84 @@ opacity: 0.8;
 }
 #hero .hero-content .btn{
     font-family: Work Sans;
+    color: rgb(255, 255, 255);;
     gap: 20%;
     margin-top: 10px;
     padding: 10px 15px;
     border-radius: 2px;
     background: rgb(82, 195, 3);
     border: none;
-    cursor: pointer;
+    cursor:pointer;
+}
+#second-sec .pre-wri .tittle{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+#second-sec .pre-wri .line{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.card{
+    max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box{
+    width: 350px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+background-color: aqua;
+  padding: 10px 18px 10px 18px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+}
+.card .info{
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 25px;
+}
+.card .info1{
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 350;
+    font-size: 15px;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.btnn .btn{
+    font-family: Work Sans;
+    color: rgb(255, 255, 255);;
+    padding: 10px 15px;
+    border-radius: 2px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor:pointer;
 }
